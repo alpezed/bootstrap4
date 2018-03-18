@@ -1,0 +1,93 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 300; }
+
+h1, .h1 {
+  font-weight: 300;
+  line-height: 3rem; }
+
+h2, .h2 {
+  line-height: 2.5rem; }
+
+h3, .h3 {
+  line-height: 2.25rem; }
+
+h4, .h4 {
+  line-height: 1.875rem;
+  margin-bottom: 3rem; }
+
+h5, .h5 {
+  line-height: 1.875rem;
+  margin-bottom: 0.75rem; }
+
+h6, .h6 {
+  line-height: 1.5rem;
+  margin-bottom: 0.75rem; }
+
+a:hover {
+  text-decoration: none; }
+
+section {
+  padding: 3rem 0; }
+  @media (min-width: 576px) {
+    section {
+      padding: 4.5rem 0; } }
+
+@media (min-width: 992px) {
+  .space-lg {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem; } }
+
+ul:last-child {
+  margin-bottom: 0; }
+
+.logo.logo-lg {
+  height: 3rem; }
+
+.list-inline.list-inline-large > .list-inline-item:not(:last-child) {
+  margin-right: 3rem; }
+
+.post-date {
+  font-size: .6875rem;
+  color: #6f6f6f;
+  display: block;
+  margin: 0; }
+
+/* Footer */
+.site-footer {
+  font-size: .875rem;
+  background: #222;
+  color: #6f6f6f; }
+  .site-footer a {
+    color: #a2a2a2; }
+    .site-footer a:hover {
+      color: white; }
+  .site-footer .footer-widgets {
+    padding: 4rem  0; }
+    .site-footer .footer-widgets .widget-title {
+      color: white; }
+  .site-footer .footer-bar {
+    padding: 1.3rem  0; }
+    .site-footer .footer-bar p {
+      margin-bottom: 0; }
+  .site-footer .widget-recent-posts ul {
+    margin-bottom: 0; }
+    .site-footer .widget-recent-posts ul li {
+      border-bottom: 1px solid #3c3c3c;
+      padding: 10px 0;
+      margin: 0; }
+      .site-footer .widget-recent-posts ul li:first-child {
+        padding-top: 0; }
+      .site-footer .widget-recent-posts ul li:last-child {
+        padding-bottom: 0;
+        border: 0; }
+  .site-footer .widget-recent-works ul {
+    margin: 0 -4px; }
+    .site-footer .widget-recent-works ul li {
+      border: 0 !important;
+      float: left;
+      width: 33.33333%;
+      padding: 4px;
+      margin: 0; }
+  .site-footer .footer-bar {
+    border-top: 1px solid #3c3c3c; }
